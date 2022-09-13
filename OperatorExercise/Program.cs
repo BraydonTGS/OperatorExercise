@@ -12,8 +12,10 @@ do
     Console.WriteLine("*******************");
     Console.WriteLine();
     Console.WriteLine("1: Standard Calculator");
-    Console.WriteLine(); 
+    Console.WriteLine();
     Console.WriteLine("2: Area of a Cirlce ");
+    Console.WriteLine();
+    Console.WriteLine("3: Exit");
     Console.WriteLine();
     string chooseProgram = Console.ReadLine();
 
@@ -81,6 +83,12 @@ do
             return userInput;
         }
         Console.Write("Would you like to continue(Y/N)? ");
+    }
+
+    else if (chooseProgram == "3")
+    {
+        Console.WriteLine();
+        Console.WriteLine("Press Enter to Exit");
     }
 
     else
